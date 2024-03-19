@@ -9,7 +9,7 @@ Through hands-on exercises and simulations I will have the ability to collect, a
 
 - SIEM - SIEM concepts and principles & Splunk configuration.
 - Logging - Windows log configuration.
-- Log analysis - Splunk search interface to analyze logs and queries.
+- Log analysis - Splunk queries & search interface to analyze logs.
 - Detection rules - Develop detection rules and use cases for identifying security incidents.
 - Splunk alerts - Configuring Splunk alerts with specific detection rules.
 
