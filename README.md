@@ -1,25 +1,23 @@
 # Homelab - Detection
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+Goal is gain practical experience in SIEM and log analysis using Splunk within a Windows 11 environment. 
+Through hands-on exercises and simulations I will have the ability to collect, analyze, and respond to security events.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- SIEM - SIEM concepts and principles & Splunk configuration.
+- Logging - Windows log configuration.
+- Log analysis - Splunk search interface to analyze logs and queries.
+- Detection rules - Develop detection rules and use cases for identifying security incidents.
+- Splunk alerts - Configuring Splunk alerts with specific detection rules.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Splunk Enterprise (trial)
+- Windows 11 Professional
+- pfSense
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
