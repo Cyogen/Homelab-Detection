@@ -1,4 +1,4 @@
-# Homelab - Detection
+# Homelab - Splunk:SPL
 
 ## Objective
 
