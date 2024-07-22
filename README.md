@@ -28,4 +28,14 @@ Splunk's UI:
 -  Data Models: *Settings* > *Data Models* under the *Knowledge* section.  Provides organized hierarchical views of data.
     a. Clicking on a Data Model will open the Editor.  The data is divided into objects.  The objects contain fields.
    
-## Overview
+## SPL 
+1.  Find the account name with the highest amount of Kerberos authentication ticket requests:
+
+![image](https://github.com/user-attachments/assets/a45b5fbc-a931-49d3-885a-5507a8683269)
+    a.  index=*:  Search should include all indexes so no data is excluded.
+    b.  sourcetype="WinEventLog:Security" : Restricts the search events to Windows Security event logs.  This makes it the data source.
+    c.  EventCode=4768 :   This one I had to search before getting the right one. Kerberos auth uses ticket requests.  The first step in the process has a client requesting a ticket.
+    d.  | stats count by Account_Name :  stats is used to generate summary statistics.  Seeing results based on account name greatly simplifies the output.
+    e.  | sort -count : Learned this one eaerly in the process.  Results are sorted in order based on the totals.  -count shows it in a descending order. 
+
+2.  
